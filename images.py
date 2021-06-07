@@ -28,6 +28,9 @@ pipe_top_left = pygame.image.load("assets/blocks/pipe_top_left.png").convert()
 pipe_top_right = pygame.image.load("assets/blocks/pipe_top_right.png").convert()
 pipe_left = pygame.image.load("assets/blocks/pipe_left.png").convert()
 pipe_right = pygame.image.load("assets/blocks/pipe_right.png").convert()
+dead_frame = pygame.image.load("assets/dead_frame.png").convert_alpha()
+
+BLACK = (0, 0, 0)
 
 mario = pygame.transform.scale(pygame.image.load("assets/mario/tall/mario.png"), (convert(16 * screen.get_height() / 240), convert(32 * screen.get_height() / 240)))
 
